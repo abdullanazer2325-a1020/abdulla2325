@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact us</h1>
+    <nav>
+        <a href="index_home.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<form action="/api/contact" method="POST" class="form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
